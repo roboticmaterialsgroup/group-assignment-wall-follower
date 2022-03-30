@@ -105,7 +105,7 @@ distance, the more trustworthy becomes your calibration curve.
 ![Screen Shot 2022-03-30 at 12 31 49 PM](https://user-images.githubusercontent.com/68814774/160885630-bcbe95c4-088d-482c-84ea-cb8e82a9b14d.png)
 
 ## Step 7: each team member: program a class for your IR sensor
-At this stage, you have a term of a linear relationship betweeen distance and voltage measurements. Now, finish programming ``IR_sensor.cpp`` and ``IR_sensor.h``. Program the following functions: ``void IRsensor::Init(void)`` in which you setup your microcontroller pin (i.e., ``pinMode(pin_IR, INPUT);``, whereas you have to define ``pin_IR = A0``); ``float IRsensor::PrintData(void)``; and ``IRsensor::ReadData`` in which you insert your conversion term from Step 6.
+At this stage, you have a term for a linear relationship betweeen distance and voltage measurements. Now, finish programming ``IR_sensor.cpp`` and ``IR_sensor.h``. Program the following functions: ``void IRsensor::Init(void)`` in which you setup your microcontroller pin (i.e., ``pinMode(pin_IR, INPUT);``, whereas you have to define ``pin_IR = A0``); ``float IRsensor::PrintData(void)``; and ``IRsensor::ReadData`` in which you insert your conversion term from Step 6.
 
 ## Step 8: each team member: create an object of your IR class and output measurements
 Once you finished programming your IR sensor class, include ``IR_sensor.h`` in your ``main.cpp`` file, create an
