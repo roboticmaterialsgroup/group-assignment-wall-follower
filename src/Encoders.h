@@ -12,9 +12,9 @@ class Encoder{
         
     public:
         void Init(void);
-        float ReadVelocityLeft(void); 
-        float ReadVelocityRight(void); 
-        float PrintVelocities(void);
+        float ReadVelocityLeft(void); //[mm/s]
+        float ReadVelocityRight(void); //[m/s]
+        void PrintVelocities(void);
         boolean UpdateEncoderCounts(void);
 };
 

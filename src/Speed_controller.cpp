@@ -10,7 +10,7 @@ void SpeedController::Init(void)
     MagneticEncoder.Init();
 }
 
-void SpeedController::Process(float target_velocity_left, float target_velocity_right)
+void SpeedController::Process(float target_velocity_left, float target_velocity_right) //[mm/s]
 {
     if(MagneticEncoder.UpdateEncoderCounts()){
         float e_left = target_velocity_left - MagneticEncoder.ReadVelocityLeft();
@@ -24,9 +24,7 @@ void SpeedController::Process(float target_velocity_left, float target_velocity_
 
         motors.setEfforts(u_left,u_right);
         
-        Serial.print(MagneticEncoder.ReadVelocityLeft());
-        Serial.print('\t');
-        Serial.println(MagneticEncoder.ReadVelocityRight());
+        MagneticEncoder.PrintVelocities();
     }
 }
 
