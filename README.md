@@ -150,7 +150,5 @@ constant speed of 10 cm/s.
 
 Create a release of your code in GitHub and call it: `demo 3 YOUR-GROUP-NAME`. As tag, enter 3.0.0.
 
+![PD-controller](https://user-images.githubusercontent.com/68814774/160889942-2ed3546f-4944-499e-929a-8f4176fa6433.jpg)
 
-Create a release of your code in GitHub and call it: `demo 2 YOUR-GROUP-NAME` (e.g., demo 2 GROUP-1). As tag, enter 2.0.0.
-
-that can be called to receive distances. You need to program a class for your infrared sensor. 
