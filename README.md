@@ -116,7 +116,7 @@ only occur when ``buttonA`` was pressed.
 
 [SIGN-OFF: 1]
 
-Create a release of your code in GitHub and call it: `demo 3 YOUR-GROUP-NAME`. As tag, enter 1.0.X.
+Create a release of your code in GitHub and call it: `demo 1 YOUR-NAME` (e.g., demo 1 NEMITZ). As tag, enter `1.0.X`.
 
 ## Step 9: Group discussion
 Discuss with your group, who developed the strongest implementation of demo 1. 
