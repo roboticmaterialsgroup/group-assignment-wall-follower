@@ -64,7 +64,7 @@ git push
 ## Step 5: each team member: create a branch and program demo 1
 Each group member will have to program their own demo 1. Therefore you need to
 create your own branch from the remote group repository. As a branch name, use your 
-first dash last name "FIRST-LAST" (e.g., MARKUS-NEMITZ). Steps 5-9 cover demo 1.
+first dash last name "FIRST-LAST" (e.g., MARKUS-NEMITZ). Steps 5-8 cover demo 1.
 
 ```
 git checkout -b "your-branch-name"
@@ -118,7 +118,7 @@ only occur when ``buttonA`` was pressed.
 
 Create a release of your code in GitHub and call it: `demo 3 YOUR-GROUP-NAME`. As tag, enter 1.0.X.
 
-## Step 9: 
+## Step 9: Group discussion
 Discuss with your group, who developed the strongest implementation of demo 1. 
 What were some pros and cons of that implementation?
 That student then creates a pull request in the browser (see exemplarily image below).
